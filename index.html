@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- this will not be seen: don't change anything here -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Aaron Long's Data Analysis Portfolio</title> <!-- Website Title-->
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" /> <!-- Removes all default styling -->
+  <link href="styles.css" rel="stylesheet"> <!-- CSS Link to all your styles -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Allows Mobile Design -->
+</head>
+
+<!-- this is all of your homepage's content -->
+
+<body>
+  <header>
+    <!-- Portfolio Name and Small Info -->
+    <section id="intro">
+      <a href="index.html"><h1>AARON LONG</h1></a> <!-- Header Name -->
+      <p>Data Analyst and Programmer <br> Located in Orlando, Florida</p><!-- Job and Location -->
+    </section>
+
+    <!-- Navigation and Links-->
+    <section>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li> <!-- Home Link  -->
+          <li id="about">ABOUT</li> <!-- About Link (uses js to show) -->
+          <li><a href="#">LINKEDIN</a></li> <!-- Linkedin Link-->
+          <li><a href="mailto:&#097;&#108;&#111;&#110;&#103;&#049;&#057;&#050;&#057;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">CONTACT</a></li>
+          <!--Email Link. I encoded your email to prevent spam and so people can't look at your code and be like this is your email -->
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <!-- About Page Section-->
+  <section id="AboutPage">
+    <!-- <img> -->
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis auteirure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </section>
+
+  <!-- Projects and Work -->
+  <main>
+    <!-- Featured Project-->
+    <section id="homeFeaturedProject">
+      <section id="featuredText">
+        <!-- Section within section is for flexbox purposes (helps turn it into two columns in tablet and desktop version)-->
+        <h2>FEATURED PROJECT</h2> <!-- Featured Project Heading-->
+        <h3><a href="projects/featured.html" class="projectTitle">Project Title</a></h3> <!-- Project Title-->
+        <p class="date">Date</p> <!-- Date -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <!-- Brief Summary -->
+      </section>
+
+      <section>
+        <a href="projects/featured.html"><img src="images/recentProjectPlaceholder.png" alt="Most Recent Project" width="300" height="300"></a>
+        <!-- Project Image-->
+      </section>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects">
+      <h2>PROJECTS</h2> <!-- Projects Title-->
+
+      <!-- Project One-->
+      <article id="ProjectOne">
+        <section class="special">
+          <a href="projects/projectOne.html"><img src="images/projectPlaceholder.png" alt="Project One" width="350" height="250"></a> <!-- Project Image-->
+        </section>
+
+        <section id="ProjectOneText">   <!-- Project One Text-->
+          <h3><a href="projects/projectOne.html" class="projectTitle">Project Title</a></h3> <!-- Project Title-->
+          <p class="date">Date</p> <!-- Date-->
+          <p class="projectP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+          <!-- Brief Summary-->
+        </section>
+      </article>
+
+      <!-- Project Two-->
+      <article id="ProjectTwo">
+        <section>
+          <a href="projects/projectTwo.html"><img src="images/projectPlaceholder.png" alt="Project One" width="350" height="250"></a>
+        </section>
+        <section id="ProjectTwoText">
+          <h3><a href="projects/projectTwo.html" class="projectTitle">Project Title</a></h3>
+          <p class="date">Date</p>
+          <p class="projectP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+        </section>
+      </article>
+
+      <!-- Project Three-->
+      <article id="ProjectThree">
+        <section>
+          <a href="projects/projectThree.html"><img src="images/projectPlaceholder.png" alt="Project One" width="350" height="250"></a>
+        </section>
+        <section id="ProjectThreeText">
+          <h3><a href="projects/projectThree.html" class="projectTitle">Project Title</a></h3>
+          <p class="date">Date</p>
+          <p class="projectP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+        </section>
+      </article>
+    </section>
+  </main>
+
+  <!-- Footer-->
+  <footer>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
